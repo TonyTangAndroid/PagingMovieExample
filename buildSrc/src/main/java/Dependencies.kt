@@ -60,7 +60,6 @@ object Dependencies {
         add(coroutinesCore)
         add(coroutinesAndroid)
         add(glide)
-        add(glideAnnotation)
         add(lifecycleRuntimeKtx)
         add(lifecycleViewModelKtx)
         add(hilt)
@@ -71,6 +70,7 @@ object Dependencies {
 
     val kaptLibraries = arrayListOf<String>().apply {
         add(hiltCompiler)
+        add(glideAnnotation)
     }
 
     val androidTestLibraries = arrayListOf<String>().apply {
